@@ -19,7 +19,7 @@ router.get("/competencia0",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -40,7 +40,7 @@ router.get("/competencia1",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -61,7 +61,7 @@ router.get("/competencia2",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -82,7 +82,7 @@ router.get("/competencia3",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -103,7 +103,7 @@ router.get("/competencia4",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -124,7 +124,7 @@ router.get("/competencia5",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -145,7 +145,7 @@ router.get("/competencia6",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }

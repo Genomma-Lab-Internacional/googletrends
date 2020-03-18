@@ -1,10 +1,10 @@
 const googleTrends = require("google-trends-api")
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const weekNumber =require("current-week-number")
-const Competencias = require("./Competencia")
 
 
-console.log(Competencias.Competencia0,Competencias.Competencia1)
+
+
 // const MrcNombre0 = require("./Constants/MrcNombre0")
 // const MrcNombre1 = require("./Constants/MrcNombre1")
 // const MrcNombre2 = require("./Constants/MrcNombre2")
@@ -229,12 +229,24 @@ console.log(Competencias.Competencia0,Competencias.Competencia1)
 //   .then(s=>console.log(JSON.parse(s).default.rankedList[0].rankedKeyword))
 //   .catch(e=>console.log(e))
 
-// googleTrends.relatedTopics({keyword: "Lomecan", geo: "MX",hl:"es-419"})
-//   .then(s=>console.log(JSON.parse(s).default.rankedList[0].rankedKeyword))
-//   .catch(e=>console.log(e))
+googleTrends.relatedTopics({keyword: "Lomecan", geo: "MX",hl:"es-419"})
+  .then(s=>console.log(JSON.parse(s).default.rankedList[0].rankedKeyword))
+  .catch(e=>console.log(e))
 
 // googleTrends.interestOverTime({keyword:"Lomecan",geo:"MX",hl:"es-419"})
-//   .then(s=>console.log(JSON.parse(s).default.timelineData))
+//   .then( s => {
+//     let records = JSON.parse(s).default.timelineData
+//     records.map( r => {
+//       if (r.formattedAxisTime.split(" ")[1] === "ene.") {
+//         console.log(r.formattedAxisTime.split(" ")[0]+"-"+01+"-"+r.formattedAxisTime.split(" ")[2] )
+//       }  else {
+//         console.log(r.formattedAxisTime.split(" ")[0]+"-"+02+"-"+r.formattedAxisTime.split(" ")[2] )
+//       }
+//     })
+    
+
+
+//   })
 //   .catch(e=>console.log(e))
 
 

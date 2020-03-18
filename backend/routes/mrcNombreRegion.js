@@ -9,18 +9,18 @@ const MrcNombreID = require("../constants/MrcNombreID")
 /****MARCA POR REGION*****/
 router.get("/mrcnombre0",(req,res,next) => {
   callbackWaitsForEmptyEventLoop = false
-  
-  async function mrcnombre0() {
+  function mrcnombre0() {
     for(let i=0; i<MrcNombre.MrcNombre0.length; i++) {
       googleTrends.interestByRegion({keyword:MrcNombre.MrcNombre0[i],geo:"MX",hl:"es-419",resolution:"REGION"})
         .then( s => {
           let records = JSON.parse(s).default.geoMapData
+          console.warn(records)
           records.map( r => {
             let insert =  `INSERT INTO InteresPorRegionMarca (Estado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.geoName}','${MrcNombre.MrcNombre0[i]}','${MrcNombreID.MrcNombre0ID[i]}',${r.value[0]},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( () => res.status(400) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -41,7 +41,7 @@ router.get("/mrcnombre1",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( () => res.status(400) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -62,7 +62,7 @@ router.get("/mrcnombre2",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -83,7 +83,7 @@ router.get("/mrcnombre3",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -104,7 +104,7 @@ router.get("/mrcnombre4",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -125,7 +125,7 @@ router.get("/mrcnombre5",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -146,7 +146,7 @@ router.get("/mrcnombre6",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -167,7 +167,7 @@ router.get("/mrcnombre7",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -188,7 +188,7 @@ router.get("/mrcnombre8",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -209,7 +209,7 @@ router.get("/mrcnombre9",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -230,7 +230,7 @@ router.get("/mrcnombre10",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -251,7 +251,7 @@ router.get("/mrcnombre11",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -272,7 +272,7 @@ router.get("/mrcnombre12",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json("BAD") )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }

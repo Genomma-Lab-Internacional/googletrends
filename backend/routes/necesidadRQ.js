@@ -20,7 +20,7 @@ router.get("/necesidades0",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -41,7 +41,7 @@ router.get("/necesidades1",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -62,7 +62,7 @@ router.get("/necesidades2",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -83,7 +83,7 @@ router.get("/necesidades3",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -104,7 +104,7 @@ router.get("/necesidades4",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -125,7 +125,7 @@ router.get("/necesidades5",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -146,7 +146,7 @@ router.get("/necesidades6",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -167,7 +167,7 @@ router.get("/necesidades7",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -188,7 +188,7 @@ router.get("/necesidades8",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -209,7 +209,7 @@ router.get("/necesidades9",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -230,7 +230,7 @@ router.get("/necesidades10",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -251,7 +251,7 @@ router.get("/necesidades11",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -272,7 +272,7 @@ router.get("/necesidades12",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -293,7 +293,7 @@ router.get("/necesidades13",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -314,7 +314,7 @@ router.get("/necesidades14",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -335,7 +335,7 @@ router.get("/necesidades15",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -356,7 +356,7 @@ router.get("/necesidades16",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -377,7 +377,7 @@ router.get("/necesidades17",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -398,7 +398,7 @@ router.get("/necesidades18",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -419,7 +419,7 @@ router.get("/necesidades19",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -440,7 +440,7 @@ router.get("/necesidades20",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -461,7 +461,7 @@ router.get("/necesidades21",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -482,7 +482,7 @@ router.get("/necesidades22",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -503,7 +503,7 @@ router.get("/necesidades23",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -525,7 +525,7 @@ router.get("/necesidades24",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -546,7 +546,7 @@ router.get("/necesidades25",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -567,7 +567,7 @@ router.get("/necesidades26",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -588,7 +588,7 @@ router.get("/necesidades27",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -609,7 +609,7 @@ router.get("/necesidades28",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -630,7 +630,7 @@ router.get("/necesidades29",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -651,7 +651,7 @@ router.get("/necesidades30",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -672,7 +672,7 @@ router.get("/necesidades31",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -693,7 +693,7 @@ router.get("/necesidades32",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -714,7 +714,7 @@ router.get("/necesidades33",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -735,7 +735,7 @@ router.get("/necesidades34",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
@@ -756,7 +756,7 @@ router.get("/necesidades35",(req,res,next) => {
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
-        .catch( e => res.status(400).json("BAD",e) )
+        .catch( e => res.status(400).json(e) )
     }
     res.writeHead(200, {'Access-Control-Allow-Origin': '*'})
   }
