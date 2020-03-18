@@ -80,7 +80,14 @@ const MrcNombre = [
   "ZAAT"
 ]
 
-
+const MrcNombre0 = [
+	"ALLIVIAX",
+	"TEATRICAL",
+	"ENGLISH LEATHER",
+	"NIKZON",
+	"SHOT B",
+	"PURIFIQ"
+]
 
 
 const MrcNombre1 = [

@@ -25,8 +25,40 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-const index = require('./routes/index');
-app.use('/', index);
+const index = require('./routes/index')
+const mrcNombreRegion = require("./routes/mrcNombreRegion")
+const mrcNombreCiudad = require("./routes/mrcNombreCiudad")
+const necesidadRegion = require("./routes/necesidadRegion")
+const necesidadCiudad = require("./routes/necesidadCiudad")
+const competenciaRegion = require("./routes/competenciaRegion")
+const competenciaCiudad = require("./routes/competenciaCiudad")
+const mrcNombreRQ = require("./routes/mrcNombreRQ")
+const necesidadRQ = require("./routes/necesidadRQ")
+const competenciaRQ = require("./routes/competenciaRQ")
+const mrcNombreRT = require("./routes/mrcNombreRT")
+const necesidadRT = require("./routes/necesidadRT")
+const competenciaRT = require("./routes/competenciaRT")
+const mrcNombreIOT = require("./routes/mrcNombreIOT")
+const necesidadIOT = require("./routes/necesidadIOT")
+const competenciaIOT = require("./routes/competenciaIOT")
+
+app.use('/', index)
+app.use("/mrcnombreregion",mrcNombreRegion)
+app.use("/mrcnombreciudad",mrcNombreCiudad)
+app.use("/necesidadregion",necesidadRegion)
+app.use("/necesidadciudad",necesidadCiudad)
+app.use("/competenciaregion",competenciaRegion)
+app.use("/competenciaciudad",competenciaCiudad)
+app.use("/mrcnombrerq",mrcNombreRQ)
+app.use("/necesidadrq",necesidadRQ)
+app.use("/competenciarq",competenciaRQ)
+app.use("/mrcnombrert",mrcNombreRT)
+app.use("/necesidadrt",necesidadRT)
+app.use("/competenciart",competenciaRT)
+app.use("/mrcnombreiot",mrcNombreIOT)
+app.use("/necesidadiot",necesidadIOT)
+app.use("/competenciaiot",competenciaIOT)
+
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
