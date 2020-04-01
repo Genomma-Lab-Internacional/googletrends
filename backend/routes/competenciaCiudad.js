@@ -6,7 +6,7 @@ const weekNumber = require("current-week-number")
 const Competencia = require("../constants/Competencia")
 
 /****COMPETENCIA POR CIUDAD*****/
-router.get("competencia0",(req,res,next) => {
+router.get("/competencia0",(req,res,next) => {
   callbackWaitsForEmptyEventLoop = false;
   
   async function competencia0() {
@@ -27,7 +27,7 @@ router.get("competencia0",(req,res,next) => {
 })
 
 
-router.get("competencia1",(req,res,next) => {
+router.get("/competencia1",(req,res,next) => {
   callbackWaitsForEmptyEventLoop = false;
   
   async function competencia1() {
@@ -48,7 +48,7 @@ router.get("competencia1",(req,res,next) => {
 })
 
 
-router.get("competencia2",(req,res,next) => {
+router.get("/competencia2",(req,res,next) => {
   callbackWaitsForEmptyEventLoop = false;
   
   async function competencia2() {
@@ -68,7 +68,7 @@ router.get("competencia2",(req,res,next) => {
  competencia2()
 })
 
-router.get("competencia3",(req,res,next) => {
+router.get("/competencia3",(req,res,next) => {
   callbackWaitsForEmptyEventLoop = false;
   
   async function competencia3() {
@@ -88,7 +88,7 @@ router.get("competencia3",(req,res,next) => {
  competencia3()
 })
 
-router.get("competencia4",(req,res,next) => {
+router.get("/competencia4",(req,res,next) => {
   callbackWaitsForEmptyEventLoop = false;
   
   async function competencia4() {
@@ -108,7 +108,7 @@ router.get("competencia4",(req,res,next) => {
  competencia4()
 })
 
-router.get("competencia5",(req,res,next) => {
+router.get("/competencia5",(req,res,next) => {
   callbackWaitsForEmptyEventLoop = false;
   
   async function competencia5() {
@@ -128,7 +128,7 @@ router.get("competencia5",(req,res,next) => {
  competencia5()
 })
 
-router.get("competencia6",(req,res,next) => {
+router.get("/competencia6",(req,res,next) => {
   callbackWaitsForEmptyEventLoop = false;
   
   async function competencia6() {

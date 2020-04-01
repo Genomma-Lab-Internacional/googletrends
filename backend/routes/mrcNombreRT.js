@@ -17,7 +17,7 @@ router.get("/mrcnombre0",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre0[i]}','${MrcNombreID.MrcNombre0ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre0[i]}','${MrcNombreID.MrcNombre0ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -37,7 +37,7 @@ router.get("/mrcnombre1",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre1[i]}','${MrcNombreID.MrcNombre1ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre1[i]}','${MrcNombreID.MrcNombre1ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -57,7 +57,7 @@ router.get("/mrcnombre2",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre2[i]}','${MrcNombreID.MrcNombre2ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre2[i]}','${MrcNombreID.MrcNombre2ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -78,7 +78,7 @@ router.get("/mrcnombre3",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre3[i]}','${MrcNombreID.MrcNombre3ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre3[i]}','${MrcNombreID.MrcNombre3ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -98,7 +98,7 @@ router.get("/mrcnombre4",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre4[i]}','${MrcNombreID.MrcNombre4ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre4[i]}','${MrcNombreID.MrcNombre4ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -118,7 +118,7 @@ router.get("/mrcnombre5",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre5[i]}','${MrcNombreID.MrcNombre5ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre5[i]}','${MrcNombreID.MrcNombre5ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -138,7 +138,7 @@ router.get("/mrcnombre6",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre6[i]}','${MrcNombreID.MrcNombre6ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre6[i]}','${MrcNombreID.MrcNombre6ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -158,7 +158,7 @@ router.get("/mrcnombre7",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre7[i]}','${MrcNombreID.MrcNombre7ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre7[i]}','${MrcNombreID.MrcNombre7ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -178,7 +178,7 @@ router.get("/mrcnombre8",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre8[i]}','${MrcNombreID.MrcNombre8ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre8[i]}','${MrcNombreID.MrcNombre8ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -198,7 +198,7 @@ router.get("/mrcnombre9",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre9[i]}','${MrcNombreID.MrcNombre9ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre9[i]}','${MrcNombreID.MrcNombre9ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -218,7 +218,7 @@ router.get("/mrcnombre10",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre10[i]}','${MrcNombreID.MrcNombre10ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre10[i]}','${MrcNombreID.MrcNombre10ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -238,7 +238,7 @@ router.get("/mrcnombre11",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre11[i]}','${MrcNombreID.MrcNombre11ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre11[i]}','${MrcNombreID.MrcNombre11ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -258,7 +258,7 @@ router.get("/mrcnombre12",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.value}','${MrcNombre.MrcNombre12[i]}','${MrcNombreID.MrcNombre12ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTMarca (TopicoRelacionado,MrcNombre,MrcNombreID,Valor,Semana,Anio) VALUES ('${r.topic.title}','${MrcNombre.MrcNombre12[i]}','${MrcNombreID.MrcNombre12ID[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })

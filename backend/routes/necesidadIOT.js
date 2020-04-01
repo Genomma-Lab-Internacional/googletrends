@@ -21,40 +21,40 @@ router.get("/necesidades0",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades0[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${nullsidades.Necesidades0[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -82,40 +82,40 @@ router.get("/necesidades1",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades1[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -143,40 +143,40 @@ router.get("/necesidades2",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades2[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -204,40 +204,40 @@ router.get("/necesidades3",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades3[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -266,40 +266,40 @@ router.get("/necesidades4",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades4[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -327,40 +327,40 @@ router.get("/necesidades5",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades5[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -389,40 +389,40 @@ router.get("/necesidades6",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades6[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -451,40 +451,40 @@ router.get("/necesidades7",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades7[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -512,40 +512,40 @@ router.get("/necesidades8",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades8[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -573,40 +573,40 @@ router.get("/necesidades9",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades9[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -634,40 +634,40 @@ router.get("/necesidades10",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades10[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -695,40 +695,40 @@ router.get("/necesidades11",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades11[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -756,40 +756,40 @@ router.get("/necesidades12",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades12[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -818,40 +818,40 @@ router.get("/necesidades13",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades13[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -879,40 +879,40 @@ router.get("/necesidades14",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades14[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -940,40 +940,40 @@ router.get("/necesidades15",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades15[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1001,40 +1001,40 @@ router.get("/necesidades16",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades16[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1063,40 +1063,40 @@ router.get("/necesidades17",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades17[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1124,40 +1124,40 @@ router.get("/necesidades18",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades18[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1185,40 +1185,40 @@ router.get("/necesidades19",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades19[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1246,40 +1246,40 @@ router.get("/necesidades20",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades20[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1307,40 +1307,40 @@ router.get("/necesidades21",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades21[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1368,40 +1368,40 @@ router.get("/necesidades22",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades22[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1430,40 +1430,40 @@ router.get("/necesidades23",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades23[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1491,40 +1491,40 @@ router.get("/necesidades24",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades24[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1552,40 +1552,40 @@ router.get("/necesidades25",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades25[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1613,40 +1613,40 @@ router.get("/necesidades26",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades26[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1674,40 +1674,40 @@ router.get("/necesidades27",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades27[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1735,40 +1735,40 @@ router.get("/necesidades28",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades28[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1796,40 +1796,40 @@ router.get("/necesidades29",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades29[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1857,40 +1857,40 @@ router.get("/necesidades30",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades30[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1918,40 +1918,40 @@ router.get("/necesidades31",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades31[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -1979,40 +1979,40 @@ router.get("/necesidades32",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades32[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -2040,40 +2040,40 @@ router.get("/necesidades33",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades33[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -2101,40 +2101,40 @@ router.get("/necesidades34",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades34[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })
@@ -2162,40 +2162,40 @@ router.get("/necesidades35",(req,res,next) => {
               let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "feb.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-02-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "mar.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-03-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }else if (month === "abr.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-04-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "may.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-05-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jun.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-06-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "jul.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-07-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "ago.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-08-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "sep.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-09-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "oct.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-10-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "nov.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-11-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else if (month === "dic.") {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-12-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             } else {
-              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${year}-01-${day}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
+              let insert =  `INSERT INTO IOTNecesidad (Tiempo,Necesidad,Valor) VALUES ('${null}','${Necesidades.Necesidades35[i]}',${r.value[0]})`
               connection.query(insert, (e,r) => e ? console.log(e,"ERROR") : console.log(r,"DONE"))
             }
             })

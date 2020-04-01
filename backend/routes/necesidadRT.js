@@ -15,7 +15,7 @@ router.get("/necesidades0",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades0[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades0[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -36,7 +36,7 @@ router.get("/necesidades1",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades1[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades1[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -57,7 +57,7 @@ router.get("/necesidades2",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades2[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades2[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -78,7 +78,7 @@ router.get("/necesidades3",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades3[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades3[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -99,7 +99,7 @@ router.get("/necesidades4",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades4[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades4[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -120,7 +120,7 @@ router.get("/necesidades5",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades5[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades5[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -141,7 +141,7 @@ router.get("/necesidades6",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades6[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades6[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -162,7 +162,7 @@ router.get("/necesidades7",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades7[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades7[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -183,7 +183,7 @@ router.get("/necesidades8",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades8[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades8[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -204,7 +204,7 @@ router.get("/necesidades9",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades9[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades9[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -225,7 +225,7 @@ router.get("/necesidades10",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades10[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades10[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -246,7 +246,7 @@ router.get("/necesidades11",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades11[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades11[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -267,7 +267,7 @@ router.get("/necesidades12",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades12[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades12[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -288,7 +288,7 @@ router.get("/necesidades13",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades13[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades13[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -309,7 +309,7 @@ router.get("/necesidades14",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades14[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades14[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -330,7 +330,7 @@ router.get("/necesidades15",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades15[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades15[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -351,7 +351,7 @@ router.get("/necesidades16",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades16[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades16[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -372,7 +372,7 @@ router.get("/necesidades17",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades17[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades17[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -393,7 +393,7 @@ router.get("/necesidades18",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades18[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades18[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -414,7 +414,7 @@ router.get("/necesidades19",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades19[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades19[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -435,7 +435,7 @@ router.get("/necesidades20",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades20[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades20[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -456,7 +456,7 @@ router.get("/necesidades21",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades21[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades21[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -477,7 +477,7 @@ router.get("/necesidades22",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades22[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades22[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -497,7 +497,7 @@ router.get("/necesidades23",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades23[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades23[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -518,7 +518,7 @@ router.get("/necesidades24",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades24[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades24[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -538,7 +538,7 @@ router.get("/necesidades25",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades25[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades25[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -558,7 +558,7 @@ router.get("/necesidades26",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades26[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades26[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -579,7 +579,7 @@ router.get("/necesidades27",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades27[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades27[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -600,7 +600,7 @@ router.get("/necesidades28",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades28[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades28[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -621,7 +621,7 @@ router.get("/necesidades29",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades29[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades29[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -642,7 +642,7 @@ router.get("/necesidades30",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades30[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades30[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -663,7 +663,7 @@ router.get("/necesidades31",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades31[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades31[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -684,7 +684,7 @@ router.get("/necesidades32",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades32[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades32[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -705,7 +705,7 @@ router.get("/necesidades33",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades33[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades33[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -726,7 +726,7 @@ router.get("/necesidades34",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades34[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades34[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })
@@ -746,7 +746,7 @@ router.get("/necesidades35",(req,res,next) => {
         .then( s => {
           let records = JSON.parse(s).default.rankedList[0].rankedKeyword
           records.map( r => {
-            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.value}','${Necesidades.Necesidades35[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
+            let insert =  `INSERT INTO RTNecesidad (TopicoRelacionado,Necesidad,Valor,Semana,Anio) VALUES ('${r.topic.title}','${Necesidades.Necesidades35[i]}',${r.value},${weekNumber()},${new Date().getFullYear()})`
             connection.query(insert, (error,rows) => error ? console.log(error,"ERROR") : console.log(rows,"DONE"))
             })
           })

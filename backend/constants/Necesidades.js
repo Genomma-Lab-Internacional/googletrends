@@ -417,12 +417,11 @@ const Necesidades28 = [
 ]
 
 const Necesidades29 = [
-	"huesos",
-	"mal olor",
-	"irritación",
-	"higiene íntima",
-	"shampoo vaginal",
-	"óvulos"
+	"desempeño sexual",
+	"condon",
+	"condones",
+	"lubricante",
+	"lubricantes",
 ]
 
 const Necesidades30 = [
